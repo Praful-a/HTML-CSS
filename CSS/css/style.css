@@ -22,7 +22,9 @@ body {
 
   /* background: linear-gradient(215deg, rgb(94, 255, 126), rgba(94, 255, 126, 0));
   background-size: cover;*/
-  background: radial-gradient(circle, red 20%, blue 40%, green 55%)
+  background: radial-gradient(circle, red 20%, blue
+    40%, green 55%);
+  border: 10px solid rgb(28, 28, 79);
 }
 
 .link {
@@ -36,4 +38,5 @@ body {
 #about-us-image {
   height: 300px;
   width: 60%;
+
 }
