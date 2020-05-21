@@ -32,3 +32,8 @@ body {
 .italics {
   font-style: oblique;
 }
+
+#about-us-image {
+  height: 300px;
+  width: 60%;
+}
