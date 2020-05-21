@@ -1,11 +1,15 @@
 body {
   background: linear-gradient(to bottom , rgb(204, 229, 255), rgba(204, 229, 255, 0.4));
-  text-transform: uppercase;
+  /* text-transform: uppercase;
+  text-align: justify; */
+  font-size: 1.15em;
   text-align: justify;
+  font-family: "Arial", sans-serif;
 }
 
 #title {
   color: rgb(232, 155, 9);
+  font-weight: 400;
 }
 
 .subtitle {
@@ -23,4 +27,8 @@ body {
 
 .link {
   text-decoration: underline;
+}
+
+.italics {
+  font-style: oblique;
 }
