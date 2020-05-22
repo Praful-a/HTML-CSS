@@ -25,10 +25,12 @@ body {
   background: radial-gradient(circle, red 20%, blue
     40%, green 55%);
   border: 10px solid rgb(28, 28, 79);
+
 }
 
 .link {
   text-decoration: underline;
+
 }
 
 .italics {
@@ -42,4 +44,10 @@ body {
   /* padding: 100px 40px 5px 0; */
   /* margin: 100px 40px 5px 0; */
   margin: 80px 40px;
+
+  float: right;
+}
+
+.site-table {
+  display: inline;
 }
