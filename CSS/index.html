@@ -73,15 +73,25 @@
     	<div class="container-item" style="order: 2; flex: 1 1 100px; align-self: center;">E</div>
     </div>
      <!-- flex-grow: ; flex-shrink: ; flex-basis: 100px; -->
+     <div class="grid-container">
+      <div class="grid-item" style="background: rgb(255, 150, 150);
+       /* grid-column: 1 / span 3; grid-row: 1 / span 2; */
+      grid-area: 2 / 1 / span 2 / span 3;">A</div>
+      <div class="grid-item" style="background: rgb(170, 255, 140);">B</div>
+      <div class="grid-item" style="background: rgb(222, 132, 255);">C</div>
+      <div class="grid-item" style="background: rgb(255, 207, 119);">D</div>
+      <div class="grid-item" style="background: rgb(140, 210, 255);">E</div>
+      <div class="grid-item" style="background: rgb(255, 203, 99);">F</div>
+     </div>
 
 
     <h2 class="subtitle">Contact Us</h2>
 
     <form>
-    	<input type="text" placeholder="Full Name" class="form-input">
-    	<input type="email" placeholder="Email" class="form-input">
-    	<textarea></textarea>
-    	<button>Submit</button>
+    	<input type="text" placeholder="Full Name" class="form-input"><br><br>
+    	<input type="email" placeholder="Email" class="form-input"><br><br>
+    	<textarea></textarea><br>
+    	<button class="submit-button">Submit</button>
     </form>
   </body>
 </html>
