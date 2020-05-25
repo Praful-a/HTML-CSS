@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@423&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <style media="screen">
+      *{
+        margin:0; padding: 0; font-family: 'Josefin Sans', sans-serif;
+      }
       .carousel-inner img {
         width: 100%;
         height: 100%;
@@ -24,10 +28,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="about.html">About Us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -80,32 +84,216 @@
           </div>
         </div>
         <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
+         <span class="carousel-control-prev-icon"></span>
         </a>
         <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
+         <span class="carousel-control-next-icon"></span>
         </a>
       </div>
     </header>
+
+    <!-- about us -->
     <section>
-      <div class="cotainer-fluid">
+      <div class="cotainer-fluid ml-5 mr-5">
         <h1 class="text-center text-capitalize pt-5 ">about us</h1>
         <hr class="w-25 mx-auto pt-5">
         <div class="row mb-5">
-          <div class="col-lg-6 col-md-6 col-12"><img src="images/img2.jpg" class="img-fluid">
+          <div class="col-lg-6 col-md-6 col-12"><img src="images/apple-coffee.jpg" class="img-fluid rounded">
         </div>
-          <div class="col-lg-6 col-md-6 col-12">
+          <div class="col-lg-6 col-md-6 col-12 col-sm">
             <h1>Who am I?</h1>
             <hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button type="button" name="button">Wanna know me</button>
+            <button type="button" name="button" class="btn bg-primary text-white">Wanna Know Me</button>
           </div>
         </div>
       </div>
 
     </section>
+    <!-- about us end -->
+
+    <!-- service part -->
+    <section>
+      <div class="cotainer">
+        <h1 class="text-center text-capitalize pt-5 ">Services</h1>
+        <hr class="w-25 mx-auto pt-5">
+      </div>
+
+     <div class="row text-center ml-5 mr-5">
+       <div class="col-lg-4 col-md-4 col-12">
+         <div class="card" style="width:400px">
+         <img class="card-img-top" src="images/apple-coffee.jpg" alt="Card image">
+         <div class="card-body">
+           <h4 class="card-title">John Doe</h4>
+           <p class="card-text">Some example text.</p>
+           <a href="#" class="btn btn-primary">See Profile</a>
+         </div>
+        </div>
+       </div>
+       <div class="col-lg-4 col-md-4 col-12">
+         <div class="card" style="width:400px">
+         <img class="card-img-top" src="images/apple-coffee.jpg" alt="Card image">
+         <div class="card-body">
+           <h4 class="card-title">John Doe</h4>
+           <p class="card-text">Some example text.</p>
+           <a href="#" class="btn btn-primary">See Profile</a>
+         </div>
+        </div>
+       </div>
+       <div class="col-lg-4 col-md-4 col-12">
+         <div class="card" style="width:400px">
+         <img class="card-img-top" src="images/apple-coffee.jpg" alt="Card image">
+         <div class="card-body">
+           <h4 class="card-title">John Doe</h4>
+           <p class="card-text">Some example text.</p>
+           <a href="#" class="btn btn-primary">See Profile</a>
+         </div>
+        </div>
+       </div>
+     </div>
+    </section>
+    <!-- Services end -->
+
+    <!-- contact demo -->
+    <section class="bg-primary text-white">
+      <article class="py-5 text-center mb-5">
+        <div>
+          <h3 class="display-4 text-white">+91 1234567898</h3>
+          <p>If You want best service Call us now.</p>
+          <button type="button" name="button" class="btn btn-warning">Contact Now</button>
+        </div>
+      </article>
+    </section>
+    <!-- contact demo end -->
 
 
+    <!-- gallery start -->
+    <section>
+      <div class="cotainer">
+        <h1 class="text-center text-capitalize pt-5 ">Gallery</h1>
+        <hr class="w-25 mx-auto pt-5">
+      </div>
+      <div class="row ml-5 mr-5">
+        <div class="col-lg-4 col-md-2 col-12 mb-4">
+          <img src="images/img2.jpg" alt="images" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-2 col-12 mb-4">
+          <img src="images/img2.jpg" alt="images" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-2 col-12 mb-4">
+          <img src="images/img2.jpg" alt="images" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-2 col-12 mb-4">
+          <img src="images/img2.jpg" alt="images" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-2 col-12 mb-4">
+          <img src="images/img2.jpg" alt="images" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-2 col-12 mb-4">
+          <img src="images/img2.jpg" alt="images" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-2 col-12 mb-4">
+          <img src="images/img2.jpg" alt="images" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-2 col-12 mb-4">
+          <img src="images/img2.jpg" alt="images" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-2 col-12 mb-4">
+          <img src="images/img2.jpg" alt="images" class="img-fluid">
+        </div>
+      </div>
+    </section>
+    <!-- gallery end -->
+
+    <!-- register form in short -->
+    <section class="bg-primary">
+      <article class="py-5 mb-5">
+        <div class="text-center text-white">
+          <h3 class="display-4">Want To Join</h3>
+          <p>Be a part of Programmer</p>
+          <button type="button" name="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">Join Now</button>
+        </div>
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Sign up</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                  <form action="/action_page.php">
+                  <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                  </div>
+                  <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox"> Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- register ends -->
+
+
+    <!-- contact us start -->
+    <section>
+    <div class="cotainer mb-5">
+      <h1 class="text-center text-capitalize pt-5 ">Contact Us</h1>
+      <hr class="w-25 mx-auto pt-5">
+    </div>
+    <div class="w-50 mx-auto mr-4">
+      <form action="/action_page.php">
+      <div class="form-group">
+        <label for="email">Your Name:</label>
+        <input type="text" class="form-control" placeholder="Enter email" id="email" autocomplete="off" placeholder="Enter Your Name">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Email:</label>
+        <input type="email" class="form-control" placeholder="Enter your email-id" id="pwd">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Contact no:</label>
+        <input type="text" class="form-control" placeholder="Enter your contact-no." id="pwd">
+      </div>
+      <div class="form-group">
+        <label>Textarea</label>
+        <textarea class="form-control"></textarea>
+      </div>
+      <div class="form-group form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox"> Remember me
+        </label>
+       </div>
+       <button type="submit" class="btn btn-primary">Submit</button>
+     </form>
+    </div>
+  </div>
+  </section>
+
+  <footer class="mt-4">
+    <p class="text-center bg-dark text-white">@Created by Praful 2020</p>
+  </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
